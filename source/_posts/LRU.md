@@ -7,6 +7,8 @@ categories: leetcode
 
 双端队列实现LRU
 
+<!-- more -->
+
 ``` cpp
 #include <unordered_map>
 #include <iostream>

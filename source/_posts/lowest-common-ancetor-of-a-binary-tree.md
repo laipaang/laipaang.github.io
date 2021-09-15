@@ -6,7 +6,10 @@ tags:
 - 二叉树
 ---
 
-[236](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/).给定一棵二叉树，找到该树中给定两个节点的最近公共祖先
+[236. 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+给定一棵二叉树，找到该树中给定两个节点的最近公共祖先
+
+<!-- more -->
 
 ``` cpp
 /**

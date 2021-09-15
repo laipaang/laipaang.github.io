@@ -6,6 +6,8 @@ tags: 代码片段
 
 通过宏实现一个简单断言`ENFORCE`，不成立时打印错误后抛异常
 
+<!-- more -->
+
 ``` cpp
 #define LIKELY(x) __builtin_expect(!!(x), 1)
 #define UNLIKELY(x) __builtin_expect(!!(x), 0)
