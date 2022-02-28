@@ -23,30 +23,28 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"laipaang.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.8.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":false,"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="对一个完全二叉树来说，所有父节点值都大于（小于）其左右子节点值，就是大堆（小堆）">
+<meta name="description" content="题目 73. 矩阵置零 难度: 中等 给定一个 m x n 的矩阵，如果一个元素为 0 ，则将其所在行和列的所有元素都设为 0 。请使用 原地 算法。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="堆">
-<meta property="og:url" content="https://laipaang.github.io/posts/heap/index.html">
+<meta property="og:title" content="LeetCode 73. 矩阵置零">
+<meta property="og:url" content="https://laipaang.github.io/posts/set-matrix-zeroes/index.html">
 <meta property="og:site_name" content="Laipaang&#39;s Blog">
-<meta property="og:description" content="对一个完全二叉树来说，所有父节点值都大于（小于）其左右子节点值，就是大堆（小堆）">
+<meta property="og:description" content="题目 73. 矩阵置零 难度: 中等 给定一个 m x n 的矩阵，如果一个元素为 0 ，则将其所在行和列的所有元素都设为 0 。请使用 原地 算法。">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-08-21T17:05:34.000Z">
-<meta property="article:modified_time" content="2021-11-23T02:47:27.312Z">
+<meta property="article:published_time" content="2022-02-28T16:09:04.000Z">
+<meta property="article:modified_time" content="2022-02-28T16:11:34.634Z">
 <meta property="article:author" content="Laipaang">
-<meta property="article:tag" content="数据结构">
-<meta property="article:tag" content="排序算法">
-<meta property="article:tag" content="堆排序">
+<meta property="article:tag" content="矩阵">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://laipaang.github.io/posts/heap/">
+<link rel="canonical" href="https://laipaang.github.io/posts/set-matrix-zeroes/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://laipaang.github.io/posts/heap/","path":"posts/heap/","title":"堆"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://laipaang.github.io/posts/set-matrix-zeroes/","path":"posts/set-matrix-zeroes/","title":"LeetCode 73. 矩阵置零"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>堆 | Laipaang's Blog</title>
+<title>LeetCode 73. 矩阵置零 | Laipaang's Blog</title>
   
 
 
@@ -139,7 +137,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -152,6 +150,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A2%98%E7%9B%AE"><span class="nav-number">1.</span> <span class="nav-text">题目</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A2%98%E8%A7%A3"><span class="nav-number">2.</span> <span class="nav-text">题解</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -216,7 +215,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://laipaang.github.io/posts/heap/">
+    <link itemprop="mainEntityOfPage" href="https://laipaang.github.io/posts/set-matrix-zeroes/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://z3.ax1x.com/2021/11/17/I5l2k9.png">
@@ -229,7 +228,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          堆
+          LeetCode 73. 矩阵置零
         </h1>
 
         <div class="post-meta-container">
@@ -240,7 +239,7 @@
       </span>
       <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2021-08-22 01:05:34" itemprop="dateCreated datePublished" datetime="2021-08-22T01:05:34+08:00">2021-08-22</time>
+      <time title="Created: 2022-03-01 00:09:04" itemprop="dateCreated datePublished" datetime="2022-03-01T00:09:04+08:00">2022-03-01</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -248,7 +247,7 @@
       </span>
       <span class="post-meta-item-text">In</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/" itemprop="url" rel="index"><span itemprop="name">排序算法</span></a>
+          <a href="/categories/LeetCode/" itemprop="url" rel="index"><span itemprop="name">LeetCode</span></a>
         </span>
     </span>
 
@@ -262,9 +261,11 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>对一个完全二叉树来说，所有父节点值都大于（小于）其左右子节点值，就是大堆（小堆）</p>
-<span id="more"></span>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * before</span></span><br><span class="line"><span class="comment"> *          1</span></span><br><span class="line"><span class="comment"> *      /      \</span></span><br><span class="line"><span class="comment"> *     3        5</span></span><br><span class="line"><span class="comment"> *  /    \     /  \</span></span><br><span class="line"><span class="comment"> *  4      6   13  10</span></span><br><span class="line"><span class="comment"> * / \    / \</span></span><br><span class="line"><span class="comment"> *    8  15 17</span></span><br><span class="line"><span class="comment"> * </span></span><br><span class="line"><span class="comment"> * after</span></span><br><span class="line"><span class="comment"> *         17</span></span><br><span class="line"><span class="comment"> *      /      \</span></span><br><span class="line"><span class="comment"> *     15       13</span></span><br><span class="line"><span class="comment"> *  /    \     /  \</span></span><br><span class="line"><span class="comment"> *  4      9   5  10</span></span><br><span class="line"><span class="comment"> * / \    / \</span></span><br><span class="line"><span class="comment"> *    3  6   8</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">adjustNode</span><span class="params">(<span class="keyword">int</span>* arr, <span class="keyword">int</span> len, <span class="keyword">int</span> cur)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> l = cur * <span class="number">2</span> + <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">int</span> r = cur * <span class="number">2</span> + <span class="number">2</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span> latest = cur;</span><br><span class="line">    <span class="keyword">if</span> (l &lt; len &amp;&amp; arr[l] &gt; arr[latest]) &#123;</span><br><span class="line">        latest = l;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (r &lt; len &amp;&amp; arr[r] &gt; arr[latest]) &#123;</span><br><span class="line">        latest = r;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (latest != cur) &#123;</span><br><span class="line">        std::<span class="built_in">swap</span>(arr[latest], arr[cur]);</span><br><span class="line">        <span class="built_in">adjustNode</span>(arr, len, latest);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">buildHeap</span><span class="params">(<span class="keyword">int</span>* arr, <span class="keyword">int</span> len)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> cur=len / <span class="number">2</span> - <span class="number">1</span>; cur&gt;=<span class="number">0</span>; --cur) &#123;</span><br><span class="line">        <span class="built_in">adjustNode</span>(arr, len, cur);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">HeapSort</span><span class="params">(<span class="keyword">int</span>* arr, <span class="keyword">int</span> len)</span> </span>&#123;</span><br><span class="line">    <span class="built_in">buildHeap</span>(arr, len);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=len<span class="number">-1</span>; i&gt;<span class="number">0</span>; --i) &#123;</span><br><span class="line">        std::<span class="built_in">swap</span>(arr[i], arr[<span class="number">0</span>]);</span><br><span class="line">        <span class="built_in">adjustNode</span>(arr, i, <span class="number">0</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> arr[] = &#123;<span class="number">1</span>,<span class="number">3</span>,<span class="number">5</span>,<span class="number">4</span>,<span class="number">6</span>,<span class="number">13</span>,<span class="number">10</span>,<span class="number">9</span>,<span class="number">8</span>,<span class="number">15</span>,<span class="number">17</span>&#125;;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">auto</span> _: arr) &#123;</span><br><span class="line">        std::cout &lt;&lt; _  &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    std::cout &lt;&lt; std::endl;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//buildHeap(a, 11);</span></span><br><span class="line">    <span class="built_in">HeapSort</span>(arr, <span class="number">11</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">auto</span> _: arr) &#123;</span><br><span class="line">        std::cout &lt;&lt; _  &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    std::cout &lt;&lt; std::endl;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+        <h3 id="题目">题目</h3>
+<p><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/set-matrix-zeroes/">73. 矩阵置零</a> 难度: <span style="color: rgba(255, 161, 25, 1);">中等</span></p>
+<p>给定一个 m x n 的矩阵，如果一个元素为 0 ，则将其所在行和列的所有元素都设为 0 。请使用 原地 算法。 <span id="more"></span></p>
+<h3 id="题解">题解</h3>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">setZeroes</span><span class="params">(vector&lt;vector&lt;<span class="keyword">int</span>&gt;&gt;&amp; matrix)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> m = matrix.<span class="built_in">size</span>();</span><br><span class="line">    <span class="keyword">int</span> n = matrix[<span class="number">0</span>].<span class="built_in">size</span>();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span> row0 = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> j=<span class="number">0</span>; j&lt;n; ++j) &#123;</span><br><span class="line">        <span class="keyword">if</span> (matrix[<span class="number">0</span>][j] == <span class="number">0</span>) &#123;</span><br><span class="line">            row0 = <span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>; i&lt;m; ++i) &#123;</span><br><span class="line">        <span class="keyword">if</span> (matrix[i][<span class="number">0</span>] == <span class="number">0</span>) &#123;</span><br><span class="line">            matrix[<span class="number">0</span>][<span class="number">0</span>] = <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> j=<span class="number">1</span>; j&lt;n; ++j) &#123;</span><br><span class="line">            <span class="keyword">if</span> (matrix[i][j] == <span class="number">0</span>) &#123;</span><br><span class="line">                matrix[i][<span class="number">0</span>] = <span class="number">0</span>;</span><br><span class="line">                matrix[<span class="number">0</span>][j] = <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=m<span class="number">-1</span>; i&gt;<span class="number">0</span>; --i) &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> j=n<span class="number">-1</span>; j&gt;<span class="number">0</span>; --j) &#123;</span><br><span class="line">            <span class="keyword">if</span> (matrix[i][<span class="number">0</span>] == <span class="number">0</span> || matrix[<span class="number">0</span>][j] == <span class="number">0</span>) &#123;</span><br><span class="line">                matrix[i][j] = <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (matrix[<span class="number">0</span>][<span class="number">0</span>] == <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;m; ++i) &#123;</span><br><span class="line">            matrix[i][<span class="number">0</span>] = <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (row0) &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> j=<span class="number">0</span>; j&lt;n; ++j) &#123;</span><br><span class="line">            matrix[<span class="number">0</span>][j] = <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
     </div>
 
@@ -274,20 +275,18 @@
 
     <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" rel="tag"># 数据结构</a>
-              <a href="/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/" rel="tag"># 排序算法</a>
-              <a href="/tags/%E5%A0%86%E6%8E%92%E5%BA%8F/" rel="tag"># 堆排序</a>
+              <a href="/tags/%E7%9F%A9%E9%98%B5/" rel="tag"># 矩阵</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
+                <a href="/posts/subarray-sum-equals-k/" rel="prev" title="LeetCode 560. 和为 K 的子数组">
+                  <i class="fa fa-chevron-left"></i> LeetCode 560. 和为 K 的子数组
+                </a>
             </div>
             <div class="post-nav-item">
-                <a href="/posts/enforce/" rel="next" title="断言">
-                  断言 <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
