@@ -1,7 +1,7 @@
 ---
 title: 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面
 date: 2022-08-13 09:17:51
-categories: LeetCode
+categories: 剑指 Offer
 tags: 双指针
 ---
 
