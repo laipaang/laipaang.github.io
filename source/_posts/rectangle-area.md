@@ -8,7 +8,7 @@ mathjax: true
 
 ### 题目
 [223. 矩形面积](https://leetcode-cn.com/problems/rectangle-area/)
-难度: <span style="color: rgba(255, 161, 25, 1);">中等</span>
+{% codelevel medium %}
 
 给你 二维 平面上两个 由直线构成的 矩形，请你计算并返回两个矩形覆盖的总面积。
 <!-- more -->

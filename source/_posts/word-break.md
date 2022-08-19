@@ -9,7 +9,7 @@ tags:
 
 ### 题目
 [139. 单词拆分](https://leetcode-cn.com/problems/word-break/)
-难度: <span style="color: rgba(255, 161, 25, 1);">中等</span>
+{% codelevel medium %}
 
 给你一个字符串 s 和一个字符串列表 wordDict 作为字典。请你判断是否可以利用字典中出现的单词拼接出 s 。
 

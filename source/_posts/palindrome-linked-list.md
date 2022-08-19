@@ -9,7 +9,7 @@ tags:
 
 ### 题目
 [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)
-难度: <span style="color: rgba(90, 183, 38, 1);">简单</span>
+{% codelevel easy %}
 
 给你一个单链表的头节点 head ，请你判断该链表是否为回文链表。如果是，返回 true ；否则，返回 false 。
 

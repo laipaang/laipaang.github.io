@@ -9,7 +9,7 @@ tags:
 
 ### 题目
 [560. 和为 K 的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/)
-难度: <span style="color: rgba(255, 161, 25, 1);">中等</span>
+{% codelevel medium %}
 
 给你一个整数数组 nums 和一个整数 k ，请你统计并返回该数组中和为 k 的连续子数组的个数。
 <!-- more -->

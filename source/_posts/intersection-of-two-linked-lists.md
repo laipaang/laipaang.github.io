@@ -10,7 +10,7 @@ mathjax: true
 
 ### 题目
 [160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
-难度: <span style="color: rgba(90, 183, 38, 1);">简单</span>
+{% codelevel easy %}
 
 给你两个单链表的头节点 `headA` 和 `headB` ，请你找出并返回两个单链表相交的起始节点。如果两个链表没有交点，返回 `null` 。
 <!-- more -->

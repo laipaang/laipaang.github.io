@@ -10,7 +10,7 @@ tags:
 ---
 ### 题目
 [621. 任务调度器](https://leetcode-cn.com/problems/task-scheduler/)
-难度: <span style="color: rgba(255, 161, 25, 1);">中等</span>
+{% codelevel medium %}
 
 给你一个用字符数组 `tasks` 表示的 `CPU` 需要执行的任务列表。其中每个字母表示一种不同种类的任务。任务可以以任意顺序执行，并且每个任务都可以在 `1` 个单位时间内执行完。在任何一个单位时间，CPU 可以完成一个任务，或者处于待命状态。
 <!-- more -->

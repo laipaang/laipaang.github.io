@@ -10,7 +10,7 @@ tags:
 
 ### 题目
 [347. 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/)
-难度: <span style="color: rgba(255, 161, 25, 1);">中等</span>
+{% codelevel medium %}
 
 <!-- more -->
 

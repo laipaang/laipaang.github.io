@@ -10,7 +10,7 @@ tags:
 
 ### 题目
 [312. 戳气球](https://leetcode-cn.com/problems/burst-balloons/)
-难度: <span style="color: rgba(239, 71, 67, 1);">困难</span>
+{% codelevel hard %}
 
 有 `n` 个气球，编号为 `0` 到 `n - 1`，每个气球上都标有一个数字，这些数字存在数组 `nums` 中。
 <!-- more -->

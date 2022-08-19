@@ -7,7 +7,7 @@ tags: 链表
 
 ### 题目
 [328. 奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/)
-难度: <span style="color: rgba(255, 161, 25, 1);">中等</span>
+{% codelevel medium %}
 
 给定单链表的头节点 head ，将所有索引为奇数的节点和索引为偶数的节点分别组合在一起，然后返回重新排序的列表。
 <!-- more -->

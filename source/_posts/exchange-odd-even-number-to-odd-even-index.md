@@ -7,7 +7,7 @@ tags: 双指针
 
 ### 题目
 [牛客 奇数下标都是奇数或者偶数下标都是偶数](https://www.nowcoder.com/questionTerminal/335823db14b945ab95241a74cfcf1ae7)
-难度: <span style="color: rgba(90, 183, 38, 1);">简单</span>
+{% codelevel easy %}
 
 给定一个长度不小于2的数组arr，实现一个函数调整arr，要么让所有的偶数下标都是偶数，要么让所有的奇数下标都是奇数
 <!-- more -->

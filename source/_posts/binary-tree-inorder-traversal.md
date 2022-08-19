@@ -8,7 +8,7 @@ tags:
 
 ### 题目
 [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
-难度: <span style="color: rgba(255, 161, 25, 1);">中等</span>
+{% codelevel medium %}
 
 给定一个二叉树的根节点 root ，返回它的 中序 遍历。
 <!-- more -->

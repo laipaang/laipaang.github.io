@@ -12,7 +12,7 @@ tags:
 
 ### 题目
 [207. 课程表](https://leetcode-cn.com/problems/course-schedule/)
-难度: <span style="color: rgba(255, 161, 25, 1);">中等</span>
+{% codelevel medium %}
 
 你这个学期必须选修 `numCourses` 门课程，记为 `0` 到 `numCourses - 1` 。
 <!-- more -->

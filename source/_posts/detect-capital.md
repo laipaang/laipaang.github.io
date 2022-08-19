@@ -7,7 +7,7 @@ tags:
 
 ### 题目
 [520. 检测大写字母](https://leetcode-cn.com/problems/detect-capital/)
-难度: <span style="color: rgba(90, 183, 38, 1);">简单</span>
+{% codelevel easy %}
 
 我们定义，在以下情况时，单词的大写用法是正确的：
 <!-- more -->

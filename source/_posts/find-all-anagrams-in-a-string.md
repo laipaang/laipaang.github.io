@@ -9,7 +9,7 @@ tags:
 
 ### 题目
 [LeetCode 438. 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)
-难度: <span style="color: rgba(255, 161, 25, 1);">中等</span>
+{% codelevel medium %}
 
 给定两个字符串 `s` 和 `p`，找到 `s` 中所有 `p` 的 `异位词` 的子串，返回这些子串的起始索引。不考虑答案输出的顺序。
 <!-- more -->

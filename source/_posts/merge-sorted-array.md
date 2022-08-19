@@ -7,7 +7,7 @@ tags: 双指针
 
 ### 题目
 [88. 合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array/)
-难度: <span style="color: rgba(90, 183, 38, 1);">简单</span>
+{% codelevel easy %}
 
 给你两个按 非递减顺序 排列的整数数组 nums1 和 nums2，另有两个整数 m 和 n ，分别表示 nums1 和 nums2 中的元素数目。
 

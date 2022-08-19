@@ -9,7 +9,7 @@ mathjax: true
 
 ### 题目
 [136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
-难度: <span style="color: rgba(90, 183, 38, 1);">简单</span>
+{% codelevel easy %}
 
 给定一个非空整数数组，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素。
 

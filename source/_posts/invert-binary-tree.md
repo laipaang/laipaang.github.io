@@ -12,7 +12,7 @@ tags:
 
 ### 题目
 [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)
-难度: <span style="color: rgba(90, 183, 38, 1);">简单</span>
+{% codelevel easy %}
 
 翻转一棵二叉树。
 <!-- more -->

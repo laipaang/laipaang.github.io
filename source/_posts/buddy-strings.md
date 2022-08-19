@@ -7,7 +7,7 @@ tags:
 
 ### 题目
 [859. 亲密字符串](https://leetcode-cn.com/problems/buddy-strings/)
-难度: <span style="color: rgba(90, 183, 38, 1);">简单</span>
+{% codelevel easy %}
 
 给你两个字符串 `s` 和 `goal` ，只要我们可以通过交换 `s` 中的两个字母得到与 `goal` 相等的结果，就返回 `true` ；否则返回 `false` 。
 <!-- more -->

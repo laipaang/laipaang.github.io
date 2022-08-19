@@ -7,7 +7,7 @@ tags:
 
 ### 题目
 [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)
-难度: <span style="color: rgba(90, 183, 38, 1);">简单</span>
+{% codelevel easy %}
 
 编写一个函数来查找字符串数组中的最长公共前缀。
 

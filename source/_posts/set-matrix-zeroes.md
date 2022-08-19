@@ -8,7 +8,7 @@ tags:
 
 ### 题目
 [73. 矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/)
-难度: <span style="color: rgba(255, 161, 25, 1);">中等</span>
+{% codelevel medium %}
 
 给定一个 m x n 的矩阵，如果一个元素为 0 ，则将其所在行和列的所有元素都设为 0 。请使用 原地 算法。
 <!-- more -->

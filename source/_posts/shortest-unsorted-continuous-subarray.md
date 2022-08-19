@@ -8,7 +8,7 @@ tags:
 
 ### 题目
 [581. 最短无序连续子数组](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/)
-难度: <span style="color: rgba(255, 161, 25, 1);">中等</span>
+{% codelevel medium %}
 
 <!-- more -->
 

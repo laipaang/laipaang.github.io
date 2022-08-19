@@ -9,7 +9,7 @@ mathjax: true
 
 ### 题目
 [1143. 最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)
-难度: <span style="color: rgba(255, 161, 25, 1);">中等</span>
+{% codelevel medium %}
 
 给定两个字符串 `text1` 和 `text2`，返回这两个字符串的最长 `公共子序列` 的长度。如果不存在 `公共子序列` ，返回 `0` 。
 <!-- more -->

@@ -8,7 +8,7 @@ tags:
 
 ### 题目
 [138. 复制带随机指针的链表](https://leetcode-cn.com/problems/add-two-numbers/)
-难度: <span style="color: rgba(255, 161, 25, 1);">中等</span>
+{% codelevel medium %}
 
 给你一个长度为 n 的链表，每个节点包含一个额外增加的随机指针 random ，该指针可以指向链表中的任何节点或空节点。
 <!-- more -->

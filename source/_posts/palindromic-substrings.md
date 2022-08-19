@@ -7,7 +7,7 @@ tags:
 
 ### 题目
 [647. 回文子串](https://leetcode-cn.com/problems/palindromic-substrings/)
-难度: <span style="color: rgba(255, 161, 25, 1);">中等</span>
+{% codelevel medium %}
 
 给你一个字符串 `s` ，请你统计并返回这个字符串中 `回文子串` 的数目。
 <!-- more -->

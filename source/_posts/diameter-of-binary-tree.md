@@ -8,7 +8,7 @@ tags:
 
 ### 题目
 [543. 二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/)
-难度: <span style="color: rgba(90, 183, 38, 1);">简单</span>
+{% codelevel easy %}
 
 <!-- more -->
 

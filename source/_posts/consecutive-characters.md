@@ -7,7 +7,7 @@ tags:
 
 ### 题目
 [1446. 连续字符](https://leetcode-cn.com/problems/consecutive-characters/)
-难度: <span style="color: rgba(90, 183, 38, 1);">简单</span>
+{% codelevel easy %}
 
 给你一个字符串 s ，字符串的「能量」定义为：只包含一种字符的最长非空子字符串的长度。
 

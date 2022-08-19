@@ -11,7 +11,7 @@ mathjax: true
 
 ### 题目
 [72. 编辑距离](https://leetcode-cn.com/problems/edit-distance/)
-难度: <span style="color: rgba(255, 161, 25, 1);">中等</span>
+{% codelevel medium %}
 
 给你两个单词 `word1` 和 `word2`，请你计算出将 `word1` 转换成 `word2` 所使用的最少操作数 。
 

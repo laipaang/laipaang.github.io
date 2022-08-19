@@ -7,7 +7,7 @@ tags:
 
 ### 题目
 [397. 整数替换](https://leetcode-cn.com/problems/integer-replacement/)
-难度: <span style="color: rgba(255, 161, 25, 1);">中等</span>
+{% codelevel medium %}
 
 给定一个正整数 `n` ，你可以做如下操作：
 

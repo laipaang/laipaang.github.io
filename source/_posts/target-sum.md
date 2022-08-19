@@ -9,7 +9,7 @@ tags:
 
 ### 题目
 [LeetCode 494. 目标和](https://leetcode-cn.com/problems/target-sum/)
-难度: <span style="color: rgba(255, 161, 25, 1);">中等</span>
+{% codelevel medium %}
 
 给你一个整数数组 nums 和一个整数 target 。
 <!-- more -->
