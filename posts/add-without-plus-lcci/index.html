@@ -23,28 +23,28 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"laipaang.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.8.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":false,"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="题目 122. 买卖股票的最佳时机II 中等 给定一个数组 prices ，它的第 i 个元素 prices[i] 表示一支给定股票第 i 天的价格。">
+<meta name="description" content="题目 面试题 17.01. 不用加号的加法  难度: 简单 设计一个函数把两个数字相加。不得使用 + 或者其他算术运算符。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="LeetCode 122. 买卖股票的最佳时机II">
-<meta property="og:url" content="https://laipaang.github.io/posts/best-time-to-buy-and-sell-stock-ii/index.html">
+<meta property="og:title" content="LeetCode 面试题 17.01. 不用加号的加法">
+<meta property="og:url" content="https://laipaang.github.io/posts/add-without-plus-lcci/index.html">
 <meta property="og:site_name" content="Laipaang&#39;s Blog">
-<meta property="og:description" content="题目 122. 买卖股票的最佳时机II 中等 给定一个数组 prices ，它的第 i 个元素 prices[i] 表示一支给定股票第 i 天的价格。">
+<meta property="og:description" content="题目 面试题 17.01. 不用加号的加法  难度: 简单 设计一个函数把两个数字相加。不得使用 + 或者其他算术运算符。">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-09-30T02:42:54.000Z">
-<meta property="article:modified_time" content="2021-11-22T16:20:41.596Z">
+<meta property="article:published_time" content="2022-08-19T18:21:56.000Z">
+<meta property="article:modified_time" content="2022-08-19T20:08:17.981Z">
 <meta property="article:author" content="Laipaang">
-<meta property="article:tag" content="买卖股票">
+<meta property="article:tag" content="位运算">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://laipaang.github.io/posts/best-time-to-buy-and-sell-stock-ii/">
+<link rel="canonical" href="https://laipaang.github.io/posts/add-without-plus-lcci/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://laipaang.github.io/posts/best-time-to-buy-and-sell-stock-ii/","path":"posts/best-time-to-buy-and-sell-stock-ii/","title":"LeetCode 122. 买卖股票的最佳时机II"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://laipaang.github.io/posts/add-without-plus-lcci/","path":"posts/add-without-plus-lcci/","title":"LeetCode 面试题 17.01. 不用加号的加法"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>LeetCode 122. 买卖股票的最佳时机II | Laipaang's Blog</title>
+<title>LeetCode 面试题 17.01. 不用加号的加法 | Laipaang's Blog</title>
   
 
 
@@ -150,7 +150,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A2%98%E7%9B%AE"><span class="nav-number">1.</span> <span class="nav-text">题目</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%80%9D%E8%B7%AF"><span class="nav-number">2.</span> <span class="nav-text">思路</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9E%E7%8E%B0"><span class="nav-number">3.</span> <span class="nav-text">实现</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A2%98%E7%9B%AE"><span class="nav-number">1.</span> <span class="nav-text">题目</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%80%9D%E8%B7%AF"><span class="nav-number">2.</span> <span class="nav-text">思路</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A2%98%E8%A7%A3"><span class="nav-number">3.</span> <span class="nav-text">题解</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -215,7 +215,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://laipaang.github.io/posts/best-time-to-buy-and-sell-stock-ii/">
+    <link itemprop="mainEntityOfPage" href="https://laipaang.github.io/posts/add-without-plus-lcci/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://z3.ax1x.com/2021/11/17/I5l2k9.png">
@@ -228,7 +228,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          LeetCode 122. 买卖股票的最佳时机II
+          LeetCode 面试题 17.01. 不用加号的加法
         </h1>
 
         <div class="post-meta-container">
@@ -239,7 +239,7 @@
       </span>
       <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2021-09-30 10:42:54" itemprop="dateCreated datePublished" datetime="2021-09-30T10:42:54+08:00">2021-09-30</time>
+      <time title="Created: 2022-08-20 02:21:56" itemprop="dateCreated datePublished" datetime="2022-08-20T02:21:56+08:00">2022-08-20</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -262,14 +262,16 @@
     
     <div class="post-body" itemprop="articleBody">
         <h3 id="题目">题目</h3>
-<p><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/">122. 买卖股票的最佳时机II</a> <code>中等</code></p>
-<p>给定一个数组 <code>prices</code> ，它的第 <code>i</code> 个元素 <code>prices[i]</code> 表示一支给定股票第 <code>i</code> 天的价格。 <span id="more"></span></p>
-<p>设计一个算法来计算你所能获取的最大利润。你可以尽可能地完成更多的交易（多次买卖一支股票）。</p>
-<p><strong>注意</strong>：你不能同时参与多笔交易（你必须在再次购买前出售掉之前的股票）。</p>
+<p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/add-without-plus-lcci/">面试题 17.01. 不用加号的加法</a>  难度: <span style="color: rgba(90, 183, 38, 1);">简单</span></p>
+<p>设计一个函数把两个数字相加。不得使用 + 或者其他算术运算符。 <span id="more"></span></p>
 <h3 id="思路">思路</h3>
-<p>低买入、高抛出</p>
-<h3 id="实现">实现</h3>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">maxProfit</span><span class="params">(std::vector&lt;<span class="keyword">int</span>&gt;&amp; prices)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">auto</span> h = prices.<span class="built_in">begin</span>();</span><br><span class="line">    <span class="keyword">int</span> sum = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">        <span class="comment">// 低买</span></span><br><span class="line">        <span class="keyword">auto</span> l = std::<span class="built_in">is_sorted_until</span>(h, prices.<span class="built_in">end</span>(), [](<span class="keyword">int</span> a, <span class="keyword">int</span> b) &#123;</span><br><span class="line">            <span class="keyword">return</span> a &gt; b;</span><br><span class="line">        &#125;);</span><br><span class="line">        <span class="keyword">if</span> (l == prices.<span class="built_in">end</span>()) &#123;</span><br><span class="line">            <span class="keyword">return</span> sum;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 高抛</span></span><br><span class="line">        h = std::<span class="built_in">is_sorted_until</span>(l, prices.<span class="built_in">end</span>());</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 利润</span></span><br><span class="line">        sum += *(h<span class="number">-1</span>) - *(l<span class="number">-1</span>); <span class="comment">// 注意l和h都是实际低点和高点的后一位</span></span><br><span class="line">        h -= <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> sum;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><code>a ^ b</code> 无进位加<br />
+<code>a &amp; b</code> 进位位置1</p>
+<p>在计算机中负数是以补码的形式表示的：<br />
+1.解决0的符号问题<br />
+2.减法转换为加法运算</p>
+<h3 id="题解">题解</h3>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> a, <span class="keyword">int</span> b)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">while</span> (b) &#123;</span><br><span class="line">        <span class="keyword">uint32_t</span> carry = a &amp; b;</span><br><span class="line">        a = a ^ b;</span><br><span class="line">        b = carry &lt;&lt; <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
     </div>
 
@@ -279,21 +281,18 @@
 
     <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8/" rel="tag"># 买卖股票</a>
+              <a href="/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/" rel="tag"># 位运算</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/posts/best-time-to-buy-and-sell-stock/" rel="prev" title="LeetCode 121. 买卖股票的最佳时机">
-                  <i class="fa fa-chevron-left"></i> LeetCode 121. 买卖股票的最佳时机
+                <a href="/posts/reverse-linked-list-ii/" rel="prev" title="LeetCode 92. 反转链表 II">
+                  <i class="fa fa-chevron-left"></i> LeetCode 92. 反转链表 II
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/posts/longest-consecutive-sequence/" rel="next" title="LeetCode 128. 最长连续序列">
-                  LeetCode 128. 最长连续序列 <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
