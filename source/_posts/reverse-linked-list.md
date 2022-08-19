@@ -1,5 +1,5 @@
 ---
-title: 反转链表
+title: LeetCode 206. 反转链表
 date: 2021-08-26 22:37:00
 categories: LeetCode
 tags:
@@ -22,6 +22,19 @@ struct ListNode {
     ListNode() : val(0), next(nullptr) {}
     ListNode(int value) : val(value), next(nullptr) {}
 };
+
+ListNode* reverseLink(ListNode* head) {
+    ListNode l; // 避免对第一个节点的特殊处理
+    ListNode* p;
+    while (head) {
+        p = head->next;
+        head->next = l.next;
+        l.next = head;
+        head = p;
+    }
+
+    return l.next;
+}
 
 ListNode* reverseLink(ListNode* head) {
     if (!head) {
