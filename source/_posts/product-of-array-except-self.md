@@ -67,3 +67,6 @@ vector<int> productExceptSelf(vector<int>& nums) {
     return prod;
 }
 ```
+
+三、一种更巧妙的解法  
+[C++ 左右累乘，巧妙记录每个元素的左右乘积](https://leetcode.cn/problems/product-of-array-except-self/comments/59944/)
