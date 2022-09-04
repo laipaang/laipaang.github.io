@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://laipaang.github.io/posts/generate-random-point-in-a-circle/</loc>
+    <lastmod>2022-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://laipaang.github.io/posts/implement-rand10-using-rand7/</loc>
+    <lastmod>2022-09-04</lastmod>
+  </url>
+  <url>
     <loc>https://laipaang.github.io/posts/guess-number-higher-or-lower/</loc>
     <lastmod>2022-09-03</lastmod>
   </url>
@@ -253,11 +261,11 @@
     <lastmod>2022-08-19</lastmod>
   </url>
   <url>
-    <loc>https://laipaang.github.io/posts/course-schedule/</loc>
+    <loc>https://laipaang.github.io/posts/daily-temperatures/</loc>
     <lastmod>2022-08-19</lastmod>
   </url>
   <url>
-    <loc>https://laipaang.github.io/posts/daily-temperatures/</loc>
+    <loc>https://laipaang.github.io/posts/course-schedule/</loc>
     <lastmod>2022-08-19</lastmod>
   </url>
   <url>
@@ -281,11 +289,11 @@
     <lastmod>2022-08-19</lastmod>
   </url>
   <url>
-    <loc>https://laipaang.github.io/posts/reverse-linked-list-ii/</loc>
+    <loc>https://laipaang.github.io/posts/sort-list/</loc>
     <lastmod>2022-08-19</lastmod>
   </url>
   <url>
-    <loc>https://laipaang.github.io/posts/sort-list/</loc>
+    <loc>https://laipaang.github.io/posts/reverse-linked-list-ii/</loc>
     <lastmod>2022-08-19</lastmod>
   </url>
   <url>
@@ -373,11 +381,11 @@
     <lastmod>2021-11-22</lastmod>
   </url>
   <url>
-    <loc>https://laipaang.github.io/posts/combination-sum/</loc>
+    <loc>https://laipaang.github.io/posts/container-with-most-water/</loc>
     <lastmod>2021-11-22</lastmod>
   </url>
   <url>
-    <loc>https://laipaang.github.io/posts/container-with-most-water/</loc>
+    <loc>https://laipaang.github.io/posts/combination-sum/</loc>
     <lastmod>2021-11-22</lastmod>
   </url>
   <url>
@@ -413,11 +421,11 @@
     <lastmod>2021-11-22</lastmod>
   </url>
   <url>
-    <loc>https://laipaang.github.io/posts/permutations/</loc>
+    <loc>https://laipaang.github.io/posts/power-of-three/</loc>
     <lastmod>2021-11-22</lastmod>
   </url>
   <url>
-    <loc>https://laipaang.github.io/posts/power-of-three/</loc>
+    <loc>https://laipaang.github.io/posts/permutations/</loc>
     <lastmod>2021-11-22</lastmod>
   </url>
   <url>
