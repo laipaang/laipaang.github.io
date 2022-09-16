@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://laipaang.github.io/posts/random-pick-index/</loc>
+    <lastmod>2022-09-16</lastmod>
+  </url>
+  <url>
     <loc>https://laipaang.github.io/posts/convert-bst-to-greater-tree/</loc>
     <lastmod>2022-09-07</lastmod>
   </url>
@@ -129,23 +133,15 @@
     <lastmod>2022-08-19</lastmod>
   </url>
   <url>
-    <loc>https://laipaang.github.io/posts/counting-bits/</loc>
-    <lastmod>2022-08-19</lastmod>
-  </url>
-  <url>
     <loc>https://laipaang.github.io/posts/diameter-of-binary-tree/</loc>
     <lastmod>2022-08-19</lastmod>
   </url>
   <url>
+    <loc>https://laipaang.github.io/posts/counting-bits/</loc>
+    <lastmod>2022-08-19</lastmod>
+  </url>
+  <url>
     <loc>https://laipaang.github.io/posts/find-all-numbers-disappeared-in-an-array/</loc>
-    <lastmod>2022-08-19</lastmod>
-  </url>
-  <url>
-    <loc>https://laipaang.github.io/posts/intersection-of-two-linked-lists/</loc>
-    <lastmod>2022-08-19</lastmod>
-  </url>
-  <url>
-    <loc>https://laipaang.github.io/posts/longest-common-prefix/</loc>
     <lastmod>2022-08-19</lastmod>
   </url>
   <url>
@@ -157,11 +153,15 @@
     <lastmod>2022-08-19</lastmod>
   </url>
   <url>
-    <loc>https://laipaang.github.io/posts/majority-element/</loc>
+    <loc>https://laipaang.github.io/posts/intersection-of-two-linked-lists/</loc>
     <lastmod>2022-08-19</lastmod>
   </url>
   <url>
-    <loc>https://laipaang.github.io/posts/merge-two-sorted-lists/</loc>
+    <loc>https://laipaang.github.io/posts/longest-common-prefix/</loc>
+    <lastmod>2022-08-19</lastmod>
+  </url>
+  <url>
+    <loc>https://laipaang.github.io/posts/majority-element/</loc>
     <lastmod>2022-08-19</lastmod>
   </url>
   <url>
@@ -169,11 +169,15 @@
     <lastmod>2022-08-19</lastmod>
   </url>
   <url>
-    <loc>https://laipaang.github.io/posts/move-zeroes/</loc>
+    <loc>https://laipaang.github.io/posts/merge-two-sorted-lists/</loc>
     <lastmod>2022-08-19</lastmod>
   </url>
   <url>
     <loc>https://laipaang.github.io/posts/palindrome-linked-list/</loc>
+    <lastmod>2022-08-19</lastmod>
+  </url>
+  <url>
+    <loc>https://laipaang.github.io/posts/move-zeroes/</loc>
     <lastmod>2022-08-19</lastmod>
   </url>
   <url>
@@ -257,15 +261,19 @@
     <lastmod>2022-08-19</lastmod>
   </url>
   <url>
-    <loc>https://laipaang.github.io/posts/search-a-2d-matrix-ii/</loc>
-    <lastmod>2022-08-19</lastmod>
-  </url>
-  <url>
     <loc>https://laipaang.github.io/posts/shortest-unsorted-continuous-subarray/</loc>
     <lastmod>2022-08-19</lastmod>
   </url>
   <url>
+    <loc>https://laipaang.github.io/posts/search-a-2d-matrix-ii/</loc>
+    <lastmod>2022-08-19</lastmod>
+  </url>
+  <url>
     <loc>https://laipaang.github.io/posts/top-k-frequent-elements/</loc>
+    <lastmod>2022-08-19</lastmod>
+  </url>
+  <url>
+    <loc>https://laipaang.github.io/posts/daily-temperatures/</loc>
     <lastmod>2022-08-19</lastmod>
   </url>
   <url>
@@ -274,10 +282,6 @@
   </url>
   <url>
     <loc>https://laipaang.github.io/posts/course-schedule/</loc>
-    <lastmod>2022-08-19</lastmod>
-  </url>
-  <url>
-    <loc>https://laipaang.github.io/posts/daily-temperatures/</loc>
     <lastmod>2022-08-19</lastmod>
   </url>
   <url>
@@ -421,7 +425,7 @@
     <lastmod>2021-11-22</lastmod>
   </url>
   <url>
-    <loc>https://laipaang.github.io/posts/merge-two-binary-trees/</loc>
+    <loc>https://laipaang.github.io/posts/maximum-depth-of-binary-tree/</loc>
     <lastmod>2021-11-22</lastmod>
   </url>
   <url>
@@ -429,7 +433,7 @@
     <lastmod>2021-11-22</lastmod>
   </url>
   <url>
-    <loc>https://laipaang.github.io/posts/permutations/</loc>
+    <loc>https://laipaang.github.io/posts/merge-two-binary-trees/</loc>
     <lastmod>2021-11-22</lastmod>
   </url>
   <url>
@@ -437,11 +441,11 @@
     <lastmod>2021-11-22</lastmod>
   </url>
   <url>
-    <loc>https://laipaang.github.io/posts/rotate-image/</loc>
+    <loc>https://laipaang.github.io/posts/permutations/</loc>
     <lastmod>2021-11-22</lastmod>
   </url>
   <url>
-    <loc>https://laipaang.github.io/posts/maximum-depth-of-binary-tree/</loc>
+    <loc>https://laipaang.github.io/posts/rotate-image/</loc>
     <lastmod>2021-11-22</lastmod>
   </url>
   <url>
