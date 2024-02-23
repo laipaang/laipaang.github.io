@@ -14,6 +14,29 @@ tags:
 
 ### 题解
 ``` cpp
+// 20230307
+string longestPalindrome(string s) {
+    int pos = 0;
+    int len = 0;
+
+    for (int i=0; i<s.size()*2-1; ++i) {
+        int l = i / 2;
+        int r = i / 2 + i % 2;
+        while (l >= 0 && r<s.size() && s[l] == s[r]) {
+            --l;
+            ++r;
+        }
+
+        if (r - l - 1 > len) {
+            pos = l + 1;
+            len = r - l - 1;
+        }
+    }
+
+    return s.substr(pos, len);
+}
+
+// 20220302
 string longestPalindrome(string s) {
     int pos = 0;
     int len = 0;
